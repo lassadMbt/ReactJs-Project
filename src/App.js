@@ -1,10 +1,13 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, Container, Nav, Row, Col, Card } from 'react-bootstrap';
+import React from 'react';// Import React library
+import 'bootstrap/dist/css/bootstrap.min.css';// Import Bootstrap CSS
+import { Navbar, Container, Nav, Row, Col, Card } from 'react-bootstrap';// Import specific components from react-bootstrap
+
 
 function App() {
   return (
     <div className='App'>
+
+      {/*NavBar  */}
       <Navbar bg="light" expand="lg">
         <Container>
           <Navbar.Brand href="#">Mrabet</Navbar.Brand>
@@ -19,8 +22,12 @@ function App() {
         </Container>
       </Navbar>
       <Container>
+
+        {/* the header */}
         <h1 className="mt-5">Welcome to MY App</h1>
 
+
+{/* the 3 cards */}
         <Row className="mt-4">
           <Col>
             <Card>
